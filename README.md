@@ -21,11 +21,11 @@ The system runs a continuous observe-reason-act loop: simulate the building, sen
 pip install -r requirements.txt
 ```
 
-### 2. (Optional) Install EnergyPlus
+### 2. Install EnergyPlus
 
 For real simulation accuracy, download EnergyPlus 23.x from https://energyplus.net/downloads and note the install path. Without it, the app still runs end-to-end using the built-in fallback solver.
 
-### 3. (Optional) Get a weather file
+### 3. Get a weather file
 
 If using EnergyPlus, download an EPW weather file for your location from https://climate.onebuilding.org and place it at:
 
