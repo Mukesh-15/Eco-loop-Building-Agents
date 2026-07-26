@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+outputs/run_*/
+outputs/*.csv
+logs/*.log
+logs/*.jsonl
+energyplus/modified_model.idf
